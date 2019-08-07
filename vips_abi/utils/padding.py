@@ -1,4 +1,4 @@
-from eth_utils.toolz import (
+from vips_utils.toolz import (
     curry,
 )
 

@@ -1,11 +1,11 @@
 import random
 
-from eth_utils import (
+from vips_utils import (
     encode_hex,
 )
 import hypothesis.strategies as st
 
-from eth_abi.utils.numeric import (
+from vips_abi.utils.numeric import (
     scale_places,
 )
 

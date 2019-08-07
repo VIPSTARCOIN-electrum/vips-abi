@@ -5,23 +5,23 @@ from typing import (
     Any,
 )
 
-from eth_utils import (
+from vips_utils import (
     big_endian_to_int,
     to_normalized_address,
     to_tuple,
 )
 
-from eth_abi.base import (
+from vips_abi.base import (
     BaseCoder,
     parse_tuple_type_str,
     parse_type_str,
 )
-from eth_abi.exceptions import (
+from vips_abi.exceptions import (
     DecodingError,
     InsufficientDataBytes,
     NonEmptyPaddingBytes,
 )
-from eth_abi.utils.numeric import (
+from vips_abi.utils.numeric import (
     TEN,
     abi_decimal_context,
     ceil32,

@@ -27,7 +27,7 @@ lint:
 	tox -e lint
 
 lint-roll:
-	isort --recursive eth_abi tests
+	isort --recursive vips_abi tests
 	$(MAKE) lint
 
 test:
@@ -37,7 +37,7 @@ test-all:
 	tox
 
 build-docs:
-	sphinx-apidoc -o docs/ . setup.py 'eth_abi/utils/*' 'eth_abi/tools/*' 'tests/*'
+	sphinx-apidoc -o docs/ . setup.py 'vips_abi/utils/*' 'vip_abi/tools/*' 'tests/*'
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 

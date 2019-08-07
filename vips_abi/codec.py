@@ -8,21 +8,21 @@ from eth_typing.abi import (
     Decodable,
     TypeStr,
 )
-from eth_utils import (
+from vips_utils import (
     is_bytes,
 )
 
-from eth_abi.decoding import (
+from vips_abi.decoding import (
     ContextFramesBytesIO,
     TupleDecoder,
 )
-from eth_abi.encoding import (
+from vips_abi.encoding import (
     TupleEncoder,
 )
-from eth_abi.exceptions import (
+from vips_abi.exceptions import (
     EncodingError,
 )
-from eth_abi.registry import (
+from vips_abi.registry import (
     ABIRegistry,
 )
 
@@ -30,7 +30,7 @@ from eth_abi.registry import (
 class BaseABICoder:
     """
     Base class for porcelain coding APIs.  These are classes which wrap
-    instances of :class:`~eth_abi.registry.ABIRegistry` to provide last-mile
+    instances of :class:`~vips_abi.registry.ABIRegistry` to provide last-mile
     coding functionality.
     """
     def __init__(self, registry: ABIRegistry):

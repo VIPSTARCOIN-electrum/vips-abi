@@ -27,7 +27,7 @@ extras_require['test'] = merge_lists(
         "pytest-pythonpath>=0.7.1",
         "pytest-xdist==1.22.3",
         "tox>=2.9.1,<3",
-        "eth-hash[pycryptodome]",
+        "vips-hash[pycryptodomex]",
         HYPOTHESIS_REQUIREMENT,
     ],
     extras_require['tools'],
@@ -55,29 +55,29 @@ extras_require['dev'] = merge_lists(
 )
 
 setup(
-    name='eth-abi',
+    name='vips-abi',
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
     version='2.0.0',
     description="""Ethereum ABI Utils""",
     long_description_markdown_filename='README.md',
     author='Piper Merriam',
     author_email='pipermerriam@gmail.com',
-    url='https://github.com/ethereum/eth-abi',
+    url='https://github.com/VIPSTARCOIN-electrum/vips-abi',
     include_package_data=True,
     install_requires=[
-        'eth-utils>=1.2.0,<2.0.0',
+        'vips-utils>=1.2.0,<2.0.0',
         'eth-typing>=2.0.0,<3.0.0',
         'parsimonious>=0.8.0,<0.9.0',
     ],
     setup_requires=['setuptools-markdown'],
     python_requires='>=3.6, <4',
     extras_require=extras_require,
-    py_modules=['eth_abi'],
+    py_modules=['vips_abi'],
     license="MIT",
     zip_safe=False,
     keywords='ethereum',
     packages=find_packages(exclude=["tests", "tests.*"]),
-    package_data={'eth_abi': ['py.typed']},
+    package_data={'vips_abi': ['py.typed']},
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',

@@ -6,19 +6,19 @@ from typing import (
 from eth_typing.abi import (
     TypeStr,
 )
-from eth_utils import (
+from vips_utils import (
     to_checksum_address,
 )
 from hypothesis import (
     strategies as st,
 )
 
-from eth_abi.grammar import (
+from vips_abi.grammar import (
     ABIType,
     normalize,
     parse,
 )
-from eth_abi.registry import (
+from vips_abi.registry import (
     BaseEquals,
     BaseRegistry,
     Lookup,
@@ -26,7 +26,7 @@ from eth_abi.registry import (
     has_arrlist,
     is_base_tuple,
 )
-from eth_abi.utils.numeric import (
+from vips_abi.utils.numeric import (
     scale_places,
 )
 

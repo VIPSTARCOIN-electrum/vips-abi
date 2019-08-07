@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# eth-abi documentation build configuration file, created by
+# vips-abi documentation build configuration file, created by
 # sphinx-quickstart on Thu Oct 16 20:43:24 2014.
 #
 # This file is execfile()d with the current directory set to its
@@ -53,7 +53,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'eth-abi'
+project = 'vips-abi'
 copyright = '2018, Piper Merriam <pipermerriam@gmail.com>'
 author = 'Piper Merriam <pipermerriam@gmail.com>'
 
@@ -210,7 +210,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'eth_abi.tex', 'eth-abi Documentation',
+  ('index', 'vips_abi.tex', 'vips-abi Documentation',
    'Piper Merriam \\textless{}pipermerriam@gmail.com\\textgreater{}', 'manual'),
 ]
 
@@ -240,7 +240,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'eth_abi', 'eth-abi Documentation',
+    ('index', 'vips_abi', 'vips-abi Documentation',
      ['Piper Merriam'], 1)
 ]
 
@@ -254,8 +254,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'eth-abi', 'eth-abi Documentation',
-   'Piper Merriam', 'eth-abi', 'Python utilities for working with the Ethereum ABI',
+  ('index', 'vips-abi', 'vips-abi Documentation',
+   'Piper Merriam', 'vips-abi', 'Python utilities for working with the Ethereum ABI',
    'Miscellaneous'),
 ]
 

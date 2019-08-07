@@ -102,7 +102,7 @@ class NoEntriesFound(ValueError, PredicateMappingError):
 
     .. warning::
 
-        In a future version of ``eth-abi``, this error class will no longer
+        In a future version of ``vips-abi``, this error class will no longer
         inherit from ``ValueError``.
     """
     pass
@@ -117,7 +117,7 @@ class MultipleEntriesFound(ValueError, PredicateMappingError):
 
     .. warning::
 
-        In a future version of ``eth-abi``, this error class will no longer
+        In a future version of ``vips-abi``, this error class will no longer
         inherit from ``ValueError``.
     """
     pass
